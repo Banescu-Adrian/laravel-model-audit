@@ -53,6 +53,15 @@ return [
     ]
 ];
 ```
+
+<h4>You can disable any of events by adding $excludedAudits attribute on model</h4>
+
+```php
+    protected array $excludedAudits = [
+        'created'
+    ];
+```
+
 <hr>
 
 <h3>Traits</h3>
