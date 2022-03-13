@@ -1,0 +1,27 @@
+{
+    "name": "weblynx/laravel-model-audit",
+    "description": "Audit package for laravel models",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Weblynx\\LaravelModelAudit\\": "src/",
+            "Weblynx\\LaravelModelAudit\\App\\": "src/app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Banescu Adrian",
+            "email": "banescuflorianadrian@outlook.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Weblynx\\LaravelModelAudit\\AuditLaravelServiceProvider"
+            ]
+        }
+    }
+}
