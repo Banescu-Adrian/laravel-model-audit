@@ -7,7 +7,7 @@
 <h3>Installation</h3>
 
 ```
-composer require weblynx/audit-model-laravel
+composer require weblynx/laravel-model-audit
 ```
 
 
