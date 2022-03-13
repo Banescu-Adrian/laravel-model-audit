@@ -31,6 +31,7 @@ php artisan migrate
 
 <hr>
 <h3>Publish vendor file</h3>
+
 ```
 php artisan vendor:publish
 ```
